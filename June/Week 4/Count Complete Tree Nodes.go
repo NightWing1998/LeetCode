@@ -1,3 +1,5 @@
+// Link - https://leetcode.com/problems/count-complete-tree-nodes/
+
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -27,3 +29,10 @@ func countNodes(root *TreeNode) int {
 		return (1 << (rootH - 2)) + countNodes(root.Left)
 	}
 }
+
+// Time :
+// 	Usage : 12ms
+//	Beats : 99.58%
+// Memory:
+// 	Usage : 6.5MB
+// 	Beats : 74.63%

@@ -1,3 +1,5 @@
+// Link - https://leetcode.com/problems/word-search-ii/
+
 type Trie struct {
 	word     string
 	children [26]*Trie
@@ -56,3 +58,10 @@ func dfs(board [][]byte, i, j int, root *Trie, result *[]string) {
 	}
 	board[i][j] = ch // backtracking
 }
+
+// Time :
+// 	Usage : 24ms
+//	Beats : 94.96%
+// Memory:
+// 	Usage : 14.8MB
+// 	Beats : 32.97%

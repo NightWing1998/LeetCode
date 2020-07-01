@@ -1,3 +1,5 @@
+// Link - https://leetcode.com/problems/unique-binary-search-trees/
+
 func numTrees(n int) int {
 	if n < 2 {
 		return 1
@@ -11,3 +13,10 @@ func numTrees(n int) int {
 	}
 	return solution[n]
 }
+
+// Time:
+//  Usage: 0ms
+// 	Beats: 100%
+// Memory:
+//  Usage: 2MB
+// 	Beats: 28.43%

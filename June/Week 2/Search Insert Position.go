@@ -1,3 +1,5 @@
+// Link - https://leetcode.com/problems/search-insert-position/
+
 func searchInsert(nums []int, target int) int {
 	start := 0
 	end := len(nums) - 1
@@ -16,3 +18,10 @@ func searchInsert(nums []int, target int) int {
 	}
 	return start
 }
+
+// Time:
+// 	Usage : 4ms
+// 	Beats : 88.73%
+// Memory:
+// 	Usage : 3.1MB
+// 	Beats : 10.53%

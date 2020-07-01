@@ -1,3 +1,4 @@
+// Link - https://leetcode.com/problems/reconstruct-itinerary/
 import "sort"
 
 func findItinerary(tickets [][]string) []string {
@@ -32,3 +33,10 @@ func findItinerary(tickets [][]string) []string {
 	}
 	return path
 }
+
+// Time:
+//  Usage: 16ms
+// 	Beats: 37.55%
+// Memory:
+//  Usage: 6.5MB
+// 	Beats: 30.3%

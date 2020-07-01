@@ -1,3 +1,5 @@
+// Link - https://leetcode.com/problems/cheapest-flights-within-k-stops/
+
 func min(x, y int) int {
 	if x < y {
 		return x
@@ -40,3 +42,10 @@ func findCheapestPrice(n int, flights [][]int, src int, dst int, K int) int {
 		return mincost
 	}
 }
+
+// Time:
+// 	Usage : 48ms
+// 	Beats : 15.67%
+// Memory:
+// 	Usage : 8MB
+// 	Beats : 23.53%

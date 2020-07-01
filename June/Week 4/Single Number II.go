@@ -1,3 +1,5 @@
+// Link - https://leetcode.com/problems/single-number-ii/
+
 func singleNumber(nums []int) int {
 	count := make(map[int]int)
 	for _, num := range nums {
@@ -14,3 +16,10 @@ func singleNumber(nums []int) int {
 	}
 	return -1
 }
+
+// Time:
+//  Usage: 4ms
+// 	Beats: 96.47%
+// Memory:
+//  Usage: 4.3MB
+// 	Beats: 10.34%

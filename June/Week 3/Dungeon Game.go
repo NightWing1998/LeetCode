@@ -1,3 +1,5 @@
+// Link - https://leetcode.com/problems/dungeon-game/
+
 import "math"
 
 func max(i, j int) int {
@@ -49,3 +51,10 @@ func calculateMinimumHP(dungeon [][]int) int {
 	}
 	return dfs(dungeon, 0, 0, n, m, table)
 }
+
+// Time:
+// 	Usage : 4ms
+// 	Beats : 99.04%
+// Memory:
+// 	Usage : 3.9MB
+// 	Beats : 46.15%

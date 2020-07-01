@@ -1,3 +1,5 @@
+// Link - https://leetcode.com/problems/sort-colors/
+
 func sortColors(nums []int) {
 	var count = make(map[int]int)
 	for _, color := range nums {
@@ -22,3 +24,10 @@ func sortColors(nums []int) {
 		nums[start] = 2
 	}
 }
+
+// Time:
+// 	Usage : 0
+// 	Beats : 100%
+// Memory:
+// 	Usage : 2MB
+// 	Beats : 98.5%

@@ -1,3 +1,5 @@
+// Link - https://leetcode.com/problems/largest-divisible-subset/submissions/
+
 import "sort"
 
 func largestDivisibleSubset(nums []int) []int {
@@ -33,3 +35,10 @@ func largestDivisibleSubset(nums []int) []int {
 
 	return res
 }
+
+// Time:
+// 	Usage : 40ms
+// 	Beats : 89.54%
+// Memory:
+// 	Usage : 2.8MB
+// 	Beats : 82.35%

@@ -1,3 +1,5 @@
+// Link - https://leetcode.com/problems/coin-change-2/
+
 func change(amount int, coins []int) int {
 	denoms := make([]int, amount+1)
 	denoms[0] = 1 // 1 way aka not selecting any coins
@@ -8,3 +10,10 @@ func change(amount int, coins []int) int {
 	}
 	return denoms[amount]
 }
+
+// Time:
+//  Usage : 0ms
+//  Beats : 100%
+// Memory:
+//  Usage : 2.3MB
+//  Beats : 67.39%

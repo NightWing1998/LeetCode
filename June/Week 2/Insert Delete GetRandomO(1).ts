@@ -1,36 +1,36 @@
 class RandomizedSet {
-    indexMap: Map<number, number>;
-    arr: number[];
-    constructor() {
-        this.indexMap = new Map<number, number>();
-        this.arr = [];
-    }
+	indexMap: Map<number, number>;
+	arr: number[];
+	constructor() {
+		this.indexMap = new Map<number, number>();
+		this.arr = [];
+	}
 
-    insert(val: number): boolean {
-        if (this.indexMap.has(val)) {
-            return false;
-        }
-        this.indexMap.set(val, this.arr.length);
-        this.arr.push(val)
-        return true;
-    }
+	insert(val: number): boolean {
+		if (this.indexMap.has(val)) {
+			return false;
+		}
+		this.indexMap.set(val, this.arr.length);
+		this.arr.push(val);
+		return true;
+	}
 
-    remove(val: number): boolean {
-        if (!this.indexMap.has(val)) {
-            return false;
-        }
-        let currIndex: number = this.indexMap.get(val) || 0;
-        this.arr[currIndex] = this.arr[this.arr.length - 1];
-        this.indexMap.set(this.arr[currIndex], currIndex);
-        this.indexMap.delete(val);
-        this.arr.pop();
-        return true;
-    }
+	remove(val: number): boolean {
+		if (!this.indexMap.has(val)) {
+			return false;
+		}
+		let currIndex: number = this.indexMap.get(val) || 0;
+		this.arr[currIndex] = this.arr[this.arr.length - 1];
+		this.indexMap.set(this.arr[currIndex], currIndex);
+		this.indexMap.delete(val);
+		this.arr.pop();
+		return true;
+	}
 
-    getRandom(): number {
-        // let temp = Math.floor(Math.random()*this.arr.length);
-        return this.arr[Math.floor(Math.random() * this.arr.length)];
-    }
+	getRandom(): number {
+		// let temp = Math.floor(Math.random()*this.arr.length);
+		return this.arr[Math.floor(Math.random() * this.arr.length)];
+	}
 }
 
 /**
@@ -40,3 +40,10 @@ class RandomizedSet {
  * var param_2 = obj.remove(val)
  * var param_3 = obj.getRandom()
  */
+
+// Time:
+// 	Usage : 148ms
+// 	Beats : -
+// Memory:
+// 	Usage : 45.1MB
+// 	Beats : -

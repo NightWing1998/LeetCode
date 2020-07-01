@@ -1,3 +1,5 @@
+// Link - https://leetcode.com/problems/sum-root-to-leaf-numbers/
+
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -22,3 +24,10 @@ func dfs(root *TreeNode, result int) int {
 	}
 	return dfs(root.Left, result*10+root.Val) + dfs(root.Right, result*10+root.Val)
 }
+
+// Time:
+//  Usage: 0ms
+// 	Beats: 100%
+// Memory:
+//  Usage: 2.4MB
+// 	Beats: 75%

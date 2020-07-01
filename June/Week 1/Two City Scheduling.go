@@ -1,3 +1,5 @@
+// Link - https://leetcode.com/problems/two-city-scheduling/
+
 import "sort"
 
 func twoCitySchedCost(costs [][]int) int {
@@ -18,3 +20,10 @@ func twoCitySchedCost(costs [][]int) int {
 }
 
 // Help from redit was taken
+
+// Time:
+//  Usage : 0ms
+//  Beats : 100%
+// Memory:
+//  Usage : 2.5MB
+//  Beats : 86.67%

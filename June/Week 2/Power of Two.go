@@ -1,3 +1,5 @@
+// Link - https://leetcode.com/problems/power-of-two/
+
 import "math"
 
 func isPowerOfTwo(n int) bool {
@@ -10,3 +12,10 @@ func isPowerOfTwo(n int) bool {
 	}
 	return false
 }
+
+// Time:
+// 	Usage : 0ms
+// 	Beats : 100%
+// Memory:
+// 	Usage : 2.2MB
+// 	Beats : 19.48%

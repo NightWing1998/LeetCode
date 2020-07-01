@@ -1,3 +1,5 @@
+// Link - https://leetcode.com/problems/search-in-a-binary-search-tree/
+
 /**
  * Definition for a binary tree node.
  * type TreeNode struct {
@@ -19,3 +21,10 @@ func searchBST(root *TreeNode, val int) *TreeNode {
 	}
 	return nil
 }
+
+// Time:
+// 	Usage : 24ms
+// 	Beats : 86.56%
+// Memory:
+// 	Usage : 6.7MB
+// 	Beats : 48.72%

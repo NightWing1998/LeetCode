@@ -1,3 +1,5 @@
+// Link - https://leetcode.com/problems/reverse-string/
+
 func reverseString(s []byte) {
 	n := len(s)
 	for i := 0; i < n/2; i++ {
@@ -17,3 +19,10 @@ func reverseString(s []byte) {
 
 // h e l l o
 // 0 1 2 3 4 n=5
+
+// Time:
+//  Usage : 40ms
+//  Beats : 73.85%
+// Memory:
+//  Usage : 6.3MB
+//  Beats : 87.06%

@@ -1,3 +1,5 @@
+// Link - https://leetcode.com/problems/insert-delete-getrandom-o1/
+
 import (
 	"fmt"
 	"math/rand"
@@ -52,3 +54,5 @@ func (this *RandomizedSet) GetRandom() int {
  * param_2 := obj.Remove(val);
  * param_3 := obj.GetRandom();
  */
+
+// GOLANG RANDOM IS NOT UNIFORM AND HENCE THE SYSTEM REJECTS THE ANS, REFER TYPESCRIPT SOLUTION

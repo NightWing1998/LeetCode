@@ -1,3 +1,5 @@
+// Link - https://leetcode.com/problems/permutation-sequence/
+
 import (
 	"strings"
 )
@@ -22,3 +24,10 @@ func getPermutation(n int, k int) string {
 	}
 	return ans.String()
 }
+
+// Time:
+// 	Usage : 0ms
+// 	Beats : 100%
+// Memory:
+// 	Usage : 2MB
+// 	Beats : 82.93%

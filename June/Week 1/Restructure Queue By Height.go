@@ -1,3 +1,5 @@
+// Link - https://leetcode.com/problems/queue-reconstruction-by-height/
+
 import (
 	"sort"
 )
@@ -16,3 +18,10 @@ func reconstructQueue(people [][]int) [][]int {
 	}
 	return newPeople
 }
+
+// Time:
+//  Usage : 36ms
+//  Beats : 22.99%
+// Memory:
+//  Usage : 6.9MB
+//  Beats : 7.69%

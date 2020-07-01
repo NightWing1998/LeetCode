@@ -1,3 +1,5 @@
+// Link - https://leetcode.com/problems/random-pick-with-weight/
+
 import (
 	"math/rand"
 	"time"
@@ -39,3 +41,5 @@ func (this Solution) PickIndex() int {
  * obj := Constructor(w);
  * param_1 := obj.PickIndex();
  */
+
+// GOLANG RANDOM NOT UNIFORM HENCE CODE IN PYTHON

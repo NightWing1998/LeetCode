@@ -1,3 +1,5 @@
+// Link - https://leetcode.com/problems/perfect-squares/
+
 func min(x, y int) int {
 	if x < y {
 		return x
@@ -22,3 +24,10 @@ func numSquares(n int) int {
 	}
 	return dp[n]
 }
+
+// Time:
+//  Usage: 24ms
+// 	Beats: 80.67%
+// Memory:
+//  Usage: 5.8MB
+// 	Beats: 70.97%

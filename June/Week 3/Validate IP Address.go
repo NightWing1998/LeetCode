@@ -1,3 +1,5 @@
+// Link - https://leetcode.com/problems/validate-ip-address/
+
 import (
 	"strconv"
 	"strings"
@@ -42,3 +44,10 @@ func validIPAddress(IP string) string {
 	}
 	return "Neither"
 }
+
+// Time:
+// 	Usage : 0ms
+// 	Beats : 100%
+// Memory:
+// 	Usage : 2MB
+// 	Beats : 69.94%

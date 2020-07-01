@@ -1,3 +1,5 @@
+// Link - https://leetcode.com/problems/delete-node-in-a-linked-list/
+
 /**
  * Definition for singly-linked list.
  * type ListNode struct {
@@ -15,3 +17,10 @@ func deleteNode(node *ListNode) {
 	}
 	parent.Next = nil
 }
+
+// Time:
+//  Usage : 0ms
+//  Beats : 100%
+// Memory:
+//  Usage : 2.9MB
+//  Beats : 15.23%

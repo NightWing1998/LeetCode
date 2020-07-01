@@ -1,3 +1,5 @@
+// Link - https://leetcode.com/problems/unique-paths/
+
 func uniquePaths(m int, n int) int {
 	if n == 0 || m == 0 {
 		return 0
@@ -17,3 +19,10 @@ func uniquePaths(m int, n int) int {
 	}
 	return dp[0][0]
 }
+
+// Time :
+// 	Usage : 0ms
+//	Beats : 100%
+// Memory:
+// 	Usage : 2MB
+// 	Beats : 80.79%
