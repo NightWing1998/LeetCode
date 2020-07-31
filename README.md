@@ -9,5 +9,5 @@
 #### Months
 <ul>
 	<li>[x] June</li>
-	<li>[ ] July</li>
+	<li>[x] July</li>
 </ul>
